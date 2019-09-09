@@ -2,6 +2,7 @@ terraform {
   required_version = ">= 0.12.0"
 }
 
+# Fixed typo in Variables
 provider "aws" {
   version = ">= 2.27.0"
 }
